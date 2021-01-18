@@ -1,0 +1,7 @@
+# Game
+
+What are the organisational perspectives of life in a society which authentically "reorganises production on the basis of the free and equal association of the producers"? Work would more and more be reduced as an exterior necessity through the [[automation]] of production and the socialisation of vital goods, which would finally give complete liberty to the individual. Thus liberated from all economic responsibility, liberated from all the debts and responsibilities from the past and other people, **humankind will exude a new surplus value**, incalculable in money because it would be impossible to reduce it to the measure of **waged work**.  The exercise of this ludic recreation is the framework of the only guaranteed equality with non-exploitation of man by man. **The liberation of the game, its creative autonomy, supersedes the ancient division between imposed work and passive leisure.**
+
+## repression of primitive ludic tendencies, hegemony
+
+The church has already burnt the so-called witches to [[repress]] the primitive ludic tendencies conserved in **popular festivities**. Under the existing dominant society, which produces the *miserable pseudo-games of non-participation*, a true artistic activity is necessarily classed as criminality. It is semi-clandestine. It appears in the form of [[scandal]].
