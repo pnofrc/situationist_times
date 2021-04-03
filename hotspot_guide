@@ -1,0 +1,57 @@
+
+
+
+sudo rpi-update
+sudo reboot
+sudo apt-get update
+sudo apt-get install -y raspberrypi-kernel-headers bc build-essential dkms git
+sudo reboot
+
+https://github.com/morrownr/88x2bu
+
+Check 32 bit https://amalgjose.com/2018/08/09/how-to-check-whether-a-raspberry-pi-is-32-bit-or-64-bit/
+
+Error kernel? https://github.com/gnab/rtl8812au/issues/147#issuecomment-633668881
+
+sudo apt-get update && sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
+sudo apt-get install raspberrypi-kernel-headers
+sudo reboot
+
+After, change 
+
+rtw_vht_enable = 2
+rtw_power_mgnt=0
+
+if rpi4
+rtw_switch_usb=
+
+
+sudo nano /boot/config.txt
+dtoverlay=disable-wifi
+
+sudo iwconfig wlan0 mode master
+
+https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
+
+interface=wlan0
+ssid=name
+driver=nl80211
+hw_mode=a
+channel=44
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wmm_enabled=1
+
+
+Test
+sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf
+
+But after 
+sudo systemctl enable hostapd
+
+(At that point, you can download a terminal emulator on your phone and ssh@nameofthessid.wlan and modify/reboot from there)
+
+https://pzwiki.wdka.nl/mediadesign/Fancyindex
+
+
